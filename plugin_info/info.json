@@ -6,8 +6,8 @@
     "author" : "FJ&RS",
     "require" : "3.2",
     "category" : "automation protocol",
-    "changelog" : "",
-    "documentation" : "",
+    "changelog" : "https://anb-rimex.github.io/TricomPlugIn/#language#/changelog",
+    "documentation" : "https://anb-rimex.github.io/TricomPlugIn/#language#",
     "language" : "",
     "compatibility" : ""
 }
