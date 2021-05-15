@@ -1,0 +1,13 @@
+{
+    "id" : "TricomPlugIn",
+    "name" : "Tricom Jeedom",
+    "description" : "Plugin pour contrôler la domotique via la Tricom",
+    "licence" : "AGPL",
+    "author" : "FJ&RS",
+    "require" : "3.2",
+    "category" : "automation protocol",
+    "changelog" : "",
+    "documentation" : "",
+    "language" : "",
+    "compatibility" : ""
+}

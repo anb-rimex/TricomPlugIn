@@ -1,0 +1,33 @@
+{
+  "light-dimmer": {
+    "name" : "Lumière-dimmer",
+    "commands": [
+      {
+        "name":"Etat",
+		"logicalId":"EtatCmd",
+        "type":"info",
+        "subType":"numeric",
+        "generic_type": "LIGHT_STATE",
+        "configuration":{
+          "tricomAction":1
+        }
+      },
+      {
+        "name":"Slider",
+        "type":"action",
+        "subType":"slider",
+        "value" : "Etat",
+        "generic_type": "LIGHT_SLIDER",
+        "unite":"",
+        "configuration":{
+          "tricomAction":"1",
+          "infoName":"Etat"
+        },
+        "template": {
+          "dashboard": "light",
+          "mobile": "light"
+        }
+      }
+    ]
+  }
+}
